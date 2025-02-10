@@ -4,10 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab 4</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Great Auto Parts - Order Form</title>
 </head>
 
 <body>
+    <h1>Great Auto Parts - Order Form</h1>
+    <div id="content">
+        <form action="">
+
+            <label for="fname">First Name</label>
+            <input id="fname" type="text" placeholder="Enter your first name">
+
+            <label for="lname">Last Name</label>
+            <input id="lname" type="text" placeholder="Enter your last name">
+
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Enter your email">
+
+            <label for="phone">Phone Number</label>
+            <input id="phone" type="tel" placeholder="Enter your phone number">
+
+            <label for="make">Make</label>
+            <input id="make" type="text" placeholder="Make">
+
+            <label for="model">Model</label>
+            <input id="model" type="text" placeholder="Model">
+
+            <label for="year">Year</label>
+            <input id="year" type="number" min="1990" max="2025" placeholder="Year">
+
+
+            <label for="date">Date</label>
+            <input id="date" type="date">
+
+            <label for="part">Spare Part:</label>
+            <input id="part" type="text" placeholder="Enter the Spare part you need">
+
+            <label for="quantity">Quantity</label>
+            <input id="quantity" type="number" min="1" max="20"
+                placeholder="Enter the quantity of the spare part you need">
+
+            <label for="comment">Comment</label>
+            <textarea id="comment" cols="20" rows="5" placeholder="Enter your comment"></textarea>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
 
 </body>
 
